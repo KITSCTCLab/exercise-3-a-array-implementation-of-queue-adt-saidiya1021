@@ -61,7 +61,7 @@ class Solution:
         Returns:
           True if it is full, else returns False.
         """
-        if len)self.queue)!=0:
+        if len(self.queue)!=0:
             return True
         else:
             return False
