@@ -124,7 +124,9 @@ dequeue the first character from queue
 compare both characters
 If the comparison fails, set is_palindrome as False.
 '''
-if self.stack[index]==self.queue[index]:
+self.stack.pop()
+self.queue.pop()
+if self.stack(character)==self.queue(character):
    is_palindrome=True
 else:
     is_plindrome=False
