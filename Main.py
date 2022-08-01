@@ -114,8 +114,8 @@ solution = Solution(length_of_text)
 
 # push/enqueue all the characters of string text to stack
 for index in range(length_of_text):
-    stack.append(character)
-    queue.qppend(character)
+    self.stack.append(character)
+    self.queue.qppend(character)
 
 is_palindrome = True
 '''
